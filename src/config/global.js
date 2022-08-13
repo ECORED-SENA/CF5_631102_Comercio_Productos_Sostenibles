@@ -33,7 +33,8 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Negocios verdes - ¿Qué es Mercadeo Verde (Green Marketing)?',
+        titulo:
+          'Negocios verdes - ¿Qué es Mercadeo Verde (<em>Green Marketing</em>)?',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -206,7 +207,7 @@ export default {
     },
     {
       referencia:
-        'Calderón, M. & Pestana, Y. (2019). Green marketing, tendencias y su aplicación en proyectos. Universidad del   Rosario.',
+        'Calderón, M. & Pestana, Y. (2019). <em>Green marketing</em>, tendencias y su aplicación en proyectos. Universidad del   Rosario.',
       link: '',
     },
     {
@@ -216,7 +217,7 @@ export default {
     },
     {
       referencia:
-        'Ricci, T. (2020). Marketing verde e innovación. Universidad del Rosario. ',
+        'Ricci, T. (2020). <em>Marketing</em> verde e innovación. Universidad del Rosario. ',
       link:
         'https://repository.urosario.edu.co/bitstream/handle/10336/30732/RicciCastillo-TitoFederico-2020.pdf?sequence=7&isAllowed=y',
     },
@@ -233,7 +234,7 @@ export default {
         'Es una forma alternativa de comercio, promovida por varias ONG, por la Organización de las Naciones Unidas (ONU) y por los movimientos sociales y políticos que promueven una relación comercial voluntaria y justa entre productores y consumidores.',
     },
     {
-      termino: 'Compost',
+      termino: '<em>Compost</em>',
       significado:
         'Materiales utilizados para hacer composta: restos de vegetales y frutas, cáscara de huevo, residuos de procedencia animal tallos frescos, hojas secas, entre otros,',
     },
@@ -258,14 +259,14 @@ export default {
         'Consiste en que las personas llevan a cabo una reunión donde pueden opinar y solucionar un problema en específico. ',
     },
     {
-      termino: 'Green Marketing o marketing green',
+      termino: '<em>Green Marketing</em> o <em>marketing green</em>',
       significado:
         'El mercadeo verde se define como todas las actividades cuyo objetivo principal es generar y proporcionar cambios dirigidos a satisfacer las necesidades de las personas con la menor huella negativa posible hacia el medio ambiente. Este concepto presenta mucha similitud con la definición de mercadeo tradicional, con diferenciación en causar el menor impacto ambiental negativo al medio ambiente.',
     },
     {
-      termino: 'Marketing',
+      termino: '<em>Marketing</em>',
       significado:
-        'Disciplina dedicada al análisis del comportamiento de los mercados y de los consumidores. El marketing analiza la gestión comercial de las empresas, con el objetivo de captar, retener y fidelizar a los clientes a través de la satisfacción de sus necesidades.',
+        'Disciplina dedicada al análisis del comportamiento de los mercados y de los consumidores. El <em>marketing</em> analiza la gestión comercial de las empresas, con el objetivo de captar, retener y fidelizar a los clientes a través de la satisfacción de sus necesidades.',
     },
     {
       termino: 'Producción',
@@ -335,29 +336,31 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable del equipo de Diseño Instruccional',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Nelly Parra Guarín',
+        cargo: 'Experta Temática',
+        centro:
+          'Centro de la Industria, la empresa y los Servicios - Regional Huila',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Diego E. Acevedo Guevara',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor Metodológico',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -373,7 +376,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Antonio Vecino Valero',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -385,43 +388,48 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Ernesto Navarro Jaimes',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Laura Gisselle Murcia Pardo',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
+        nombre: 'Yicelly Estefania Mesa Silva',
+        cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guión audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Veimar Celis',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

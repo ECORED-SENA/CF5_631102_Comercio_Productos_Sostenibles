@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Negocios verdes - ¿Qué es Mercadeo Verde (Green Marketing)?
+      h1 Negocios verdes - ¿Qué es Mercadeo Verde (#[em Green Marketing])?
 
     .row
       .col-md-5
@@ -13,14 +13,14 @@
       .col-md-7
         p(data-aos="fade-left") Se define como todas las actividades cuyo objetivo principal es generar y proporcionar cambios dirigidos a satisfacer las necesidades de las personas, con la menor huella negativa posible hacia el medio ambiente. Este concepto presenta mucha similitud con la definición de mercadeo tradicional, con la diferencia en causar el menor impacto ambiental negativo.
 
-    p.mt-5(data-aos="fade-up") Teniendo en cuenta las afirmaciones anteriores,  Castellano et al. (2015) concluyen que el mercadeo verde o Green Marketing es el “proceso asumido por las empresas, que incorpora acciones para la obtención de un producto o servicio de forma amigable, disminuyendo o eliminando los daños que pueda ocasionar dicho proceso al medio ambiente”, considerando las etapas del ciclo de vida de un bien o servicio, es decir, desde la selección y extracción de la materia prima, hasta la reutilización o reciclaje del producto para su disposición final.
+    p.mt-5(data-aos="fade-up") Teniendo en cuenta las afirmaciones anteriores,  Castellano et al. (2015) concluyen que el mercadeo verde o #[em Green Marketing] es el “proceso asumido por las empresas, que incorpora acciones para la obtención de un producto o servicio de forma amigable, disminuyendo o eliminando los daños que pueda ocasionar dicho proceso al medio ambiente”, considerando las etapas del ciclo de vida de un bien o servicio, es decir, desde la selección y extracción de la materia prima, hasta la reutilización o reciclaje del producto para su disposición final.
 
     Separador
 
     .titulo-segundo
       h2#t_1_1 1.1 Ventajas y desventajas del mercadeo verde
 
-    p(data-aos="fade-up") Crear un negocio verde no es una labor fácil, porque, adicionalmente a las estrategias de green marketing que se deben aplicar, todo el desarrollo y operación del negocio debe estar enfocado a la protección del medio ambiente. 
+    p(data-aos="fade-up") Crear un negocio verde no es una labor fácil, porque, adicionalmente a las estrategias de #[em green marketing] que se deben aplicar, todo el desarrollo y operación del negocio debe estar enfocado a la protección del medio ambiente. 
 
     .row.mt-5.cont_backgroundt1_1.pb-5(style="position:relative;")
       .col-md-6
@@ -208,7 +208,7 @@
     .titulo-segundo
       h2#t_1_3 1.3 Ejemplos de mercadeo verde en el mundo
 
-    p(data-aos="fade-up") En el siguiente video, se presentan algunos ejemplos de empresas a nivel mundial relacionadas con las acciones de mezcla de mercadeo aplicadas en el marketing sostenible. ¡Adelante!
+    p(data-aos="fade-up") En el siguiente video, se presentan algunos ejemplos de empresas a nivel mundial relacionadas con las acciones de mezcla de mercadeo aplicadas en el #[em marketing] sostenible. ¡Adelante!
 
     .row.mt-5.cont_backgroundt1_3.pb-5(style="position:relative;")
       figure
@@ -219,7 +219,7 @@
     .titulo-segundo
       h2#t_1_4 1.4 Factores de éxito del mercadeo verde
 
-    p(data-aos="fade-up") Existen cinco (5) puntos claves del mercadeo verde para tener en cuenta, los cuales permiten desarrollar habilidades eficaces de marketing verde y se convierten en una guía para evitar caer en el greenwashing y cometer errores. Los cinco puntos clave se describen a continuación:
+    p(data-aos="fade-up") Existen cinco (5) puntos claves del mercadeo verde para tener en cuenta, los cuales permiten desarrollar habilidades eficaces de #[em marketing] verde y se convierten en una guía para evitar caer en el #[em greenwashing] y cometer errores. Los cinco puntos clave se describen a continuación:
 
     .titulo-sexto.color-acento-contenido.mt-5(style="position:relative")
       h5 Tabla 2
@@ -247,7 +247,7 @@
             td.p-4(style="border:0") La elección positiva no es una obligación. Un producto considerado verde es, en parte, un desafío de diseño. Un producto verde es a menudo mejor, más eficiente, durable, saludable, accesible, y así sucesivamente. Por lo tanto, las organizaciones deben lidiar con la cultura y los nuevos estilos de vida. 
           tr(style="background-color:#FFFAE7")
             td.p-4.h5.text-center(style="border:0;border-right:1px #AFAFAF solid;") Informativo
-            td.p-4(style="border:0") La falta de información afecta el comportamiento de las personas. Las bases para el desarrollo del marketing verde residen en la educación y la participación. 
+            td.p-4(style="border:0") La falta de información afecta el comportamiento de las personas. Las bases para el desarrollo del #[em marketing] verde residen en la educación y la participación. 
 
 
 

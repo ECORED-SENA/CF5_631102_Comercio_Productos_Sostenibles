@@ -41,7 +41,7 @@
         .row.col-md-10.m-auto
           .col-md-7.mb-4.mb-md-0(style="place-self:center")
             h5 Lo cual hace que los gases de efecto invernadero 
-            p En lo que tiene que ver con el traslado de personas a sus lugares de trabajo disminuya, pues los trabajos online o remotos contribuyen a la reducción de material particulado por la descongestión urbana en movilidad y uso de transporte público o privado.  
+            p En lo que tiene que ver con el traslado de personas a sus lugares de trabajo disminuya, pues los trabajos #[em online] o remotos contribuyen a la reducción de material particulado por la descongestión urbana en movilidad y uso de transporte público o privado.  
           .col-md-5(style="place-self:center")
             figure
               img(src='@/assets/curso/tema2/9.png')

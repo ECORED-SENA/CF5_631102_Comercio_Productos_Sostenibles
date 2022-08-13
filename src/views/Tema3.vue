@@ -249,7 +249,7 @@
             img(src="@/assets/curso/tema3/26.svg" data-aos="fade-left" style="position:relative")
 
     figure.mt-5
-      img(src="@/assets/curso/tema3/24.svg" data-aos="fade-up" style="max-width:330px;")
+      img(src="@/assets/curso/tema3/36.svg" data-aos="fade-up" style="max-width:330px;")
 
     p.mt-4(data-aos="fade-up") Esta técnica consiste en que las personas llevan a cabo una reunión donde pueden opinar y solucionar un problema en específico; una de las cualidades de esta herramienta es que permite tomar diferentes perspectivas sobre un mismo tema y llegar a la mejor solución.
 

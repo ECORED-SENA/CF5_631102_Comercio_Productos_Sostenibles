@@ -7,7 +7,7 @@
         span 4
       h1 Envases, empaques y embalajes ecológicos o biodegradables  ambiental
 
-    p(data-aos="fade-up") En la división del packaging, se encuentran tres categorías de envases:
+    p(data-aos="fade-up") En la división del #[em packaging], se encuentran tres categorías de envases:
 
     .row.mt-5.cont_backgroundt4_1(style="position:relative")
       .col-md-4
@@ -57,7 +57,7 @@
     p(data-aos="fade-up") Según la definición de empaque del Centro Internacional de Negocios (s. f.), es #[strong(style="color:#EF3481;") "la presentación comercial de la mercancía, contribuyendo a la seguridad de ésta durante sus desplazamientos y lográndose vender, dándole una buena imagen visual y distinguiéndose de los productos de la competencia”].
 
     .row.mt-5.cont_backgroundt4_2(style="position:relative")
-      p(data-aos="fade-up" style="position:relative") El empaque es la manera en que se presenta el producto en las tiendas para su venta. #[strong(style="color:#EF3481;") Está más enfocado al marketing y su principal objetivo es vender. A veces, el empaque suele ser el mismo envase, pero no siempre. También es conocido como empaque secundario.] Actualmente, existen emprendimientos que elaboran sustitutos de bolsas plásticas y de otros tipos de empaques, para hacerlos ecológicos y biodegradables.
+      p(data-aos="fade-up" style="position:relative") El empaque es la manera en que se presenta el producto en las tiendas para su venta. #[strong(style="color:#EF3481;") Está más enfocado al #[em marketing] y su principal objetivo es vender. A veces, el empaque suele ser el mismo envase, pero no siempre. También es conocido como empaque secundario.] Actualmente, existen emprendimientos que elaboran sustitutos de bolsas plásticas y de otros tipos de empaques, para hacerlos ecológicos y biodegradables.
 
       .cajon.color-acento-botones.p-4.mb-4.col-md-10.m-auto.mt-4.row(style="background-color:#EBE3F9;")
         .col-auto(style="place-self:center")
@@ -81,13 +81,14 @@
           .bloque-texto-b__texto
             p.text-small(data-aos="fade-up" style="font-size:16px") Según la definición de embalaje señalada por el Centro Internacional de Negocios (s. f.) #[br]
             i.fas.fa-quote-left
-            h5.mb-0(style="font-size:18px" data-aos="fade-up") Es aquel que prepara la carga en la forma más adecuada para su transporte en los modos elegidos para su despacho al exterior y para las distintas operaciones a que se someta durante el viaje entre el exportador y el importado.
+            h5.mb-0(style="font-size:18px" data-aos="fade-up") Es aquel que prepara la carga en la forma más adecuada para su transporte en los modos elegidos para su despacho al exterior y para las distintas operaciones a que se someta durante el viaje entre el exportador y el importador.
             i.fas.fa-quote-right(style="float:right;")
             br
             br
             p(data-aos="fade-up" style="font-size:16px")  Centro Internacional de Negocios (s. f.)
 
-    p.mt-5.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") Con frecuencia, también se le conoce al embalaje como un empaque terciario que sirve para transportar los productos y en el que se informan las especificaciones de manipulación, los requisitos, símbolos y lo que contiene en la parte externa.
+    p.mt-4.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") El embalaje es una forma de empaque que envuelve, continue, protege y conserva los productos envasados y/o empaquetados y va mas orientado a la protección del producto durante el transporte logístico. No necesariamente debe ser una caja, tambien puede ser el plástico que ponemos alrededor de un producto envasado o empaquetado.
+    p.mt-4.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") Con frecuencia, también se le conoce al embalaje como un empaque terciario que sirve para transportar los productos y en el que se informan las especificaciones de manipulación, los requisitos, símbolos y lo que contiene en la parte externa.
 
     .row.mt-5.cont_backgroundt4_3(style="position:relative")
       .col-md-8.m-auto.mt-4.p-4(style="background-color:#F6F6F6;")
@@ -109,6 +110,8 @@
       )
       .bloque-texto-g__texto.p-5
         p.mb-0(data-aos="fade-up") La ficha técnica es un documento conciso con datos técnicos sobre el producto. Los compradores exigen datos técnicos detallados y una muestra para su análisis a fin de determinar la calidad del producto y asegurarse de que cumple sus requisitos. En una fase posterior de las negociaciones, #[strong(style="color:#EA3584;") los compradores también exigen documentación de la empresa, como certificados de gestión del medio ambiente, INVIMA, etc.]
+
+    p.mt-5(data-aos="fade-up") Los siguientes son los pasos básicos de una ficha técnica para productos alimentarios naturales:
 
     br
     ImagenInfografica.infografia__1.color-primario.mt-5.col-md-7.m-auto
@@ -172,7 +175,7 @@
     .row.mt-5
       .col-md-8(style="place-self:center")
         .cajon-b.color-secundario.p-3.mb-5
-          p.mb-0(data-aos="fade-right") Una ficha técnica se utiliza tanto con fines informativos como publicitarios. Desde el punto de vista informativo, contiene consejos útiles sobre el producto, como por ejemplo cómo utilizarlo, de qué está hecho, qué cosas hay que tener en cuenta al utilizar el producto y su nombre oficial y las especificaciones estándar de la industria. Desde el punto de vista del marketing, puede contener fotos e ilustraciones en color, así como secciones enteras en las que se describen los beneficios que el producto aportará al usuario final.
+          p.mb-0(data-aos="fade-right") Una ficha técnica se utiliza tanto con fines informativos como publicitarios. Desde el punto de vista informativo, contiene consejos útiles sobre el producto, como por ejemplo cómo utilizarlo, de qué está hecho, qué cosas hay que tener en cuenta al utilizar el producto y su nombre oficial y las especificaciones estándar de la industria. Desde el punto de vista del #[em marketing], puede contener fotos e ilustraciones en color, así como secciones enteras en las que se describen los beneficios que el producto aportará al usuario final.
         .row.mt-4.p-3(style="background-color:#E8E8E8;border-radius:15px;")
           .col-md-1(style="place-self:center")
             figure.text-center
@@ -180,7 +183,7 @@
           .col-md-8(style="place-self:center")
             p(data-aos="fade-up") #[strong A continuación, se comparte otro ejemplo de ficha técnica, pero este ya elaborado en el SENA.]
           .col-md-3.text-center(style="place-self:center")
-            a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/ficha_tecnica_tablero_digital_interactivo_LG.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/OKEst_Ficha_tecnica_SENA.pdf')" target="_blank" type="application/pdf")
               span Descargar pdf
               i.fas.fa-file-download
 
