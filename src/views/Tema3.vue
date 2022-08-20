@@ -292,10 +292,9 @@
 
     p.mt-5(data-aos="fade-up") Dentro de los grupos focales es importante considerar la forma en que se puede organizar y para ello, podrá conocerlo a través del siguiente recurso: 
 
-    .p-5.mt-4(style="background-color:#F6F6F6;border-radius:15px;")
+    .p-5.mt-4.cont_linea_tiempo(style="background-color:#F6F6F6;border-radius:15px;")
       h4.text-center(data-aos="fade-up") ¿Cómo se organiza un grupo focal?
-      figure.text-center.mt-5
-        img(src="@/assets/curso/tema3/29.svg" data-aos="zoom-in-up")
+      LineaTiempoAjustada.color-acento-contenido.mt-5(:datos="datosLineaTiempoA")
 
     .row.mt-5.aos-init.aos-animate(data-aos='fade-right')
       .col-2.col-md-1.bgr_12
@@ -357,13 +356,53 @@
 </template>
 
 <script>
+import LineaTiempoAjustada from '../components/LineaTiempoAjustada.vue'
 export default {
   name: 'Tema3',
-  components: {},
+  components: {
+    LineaTiempoAjustada,
+  },
   data: () => ({
     indicadorTarjetaSlide: true,
     indicadorTarjetaSlide1: true,
     indicadorTarjetaFlip: true,
+    datosLineaTiempoA: [
+      {
+        imagen: require('@/assets/curso/tema3/38.png'),
+        titulo: 'Define el problema',
+        texto: 'Establecer el problema para el cual se busca la respuesta.',
+      },
+      {
+        imagen: require('@/assets/curso/tema3/39.png'),
+        titulo: 'Elige los participantes',
+        texto:
+          'Esta dependerá del objetivo planteado y no deben conocerse entre sí. ',
+      },
+      {
+        imagen: require('@/assets/curso/tema3/40.png'),
+        titulo: 'Selecciona moderadores',
+        texto:
+          'El moderador del grupo focal debe despertar y  enfocar a los miembros del equipo, así como también continuar el hilo de discusión para asegurar que todos los que participan estén involucrados activamente.',
+      },
+      {
+        imagen: require('@/assets/curso/tema3/41.png'),
+        titulo: 'Planea el diálogo y plantea las reglas ',
+        texto:
+          'Se debe explicar a los participantes cómo se desarrollará el grupo focal, poner pausas, tiempo entre discusiones, y anotaciones, para que todos puedan participar.',
+      },
+      {
+        imagen: require('@/assets/curso/tema3/42.png'),
+        titulo: 'Modera de forma adecuada',
+        texto:
+          'Crear un clima agradable para que las personas aporten y se sientan cómodas, además de aclararles el objetivo de la investigación, ya que de esta manera podrán saber qué tipo de aporte brindan.',
+      },
+      {
+        imagen: require('@/assets/curso/tema3/43.png'),
+        titulo: 'Analiza los resultados',
+        texto:
+          'Esta es una técnica cualitativa, de manera que los resultados se extrapolan a la población total con similitudes a los participantes.',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
@@ -437,4 +476,55 @@ export default {
   width: -webkit-fit-content
   width: -moz-fit-content
   width: fit-content
+.linea-tiempo-a__icon img
+  width: 90px
+  transform: translate(-47%, -48%)
+.linea-tiempo-a::before
+  width: 5px
+  background: #12263F
+.linea-tiempo-a__text
+  align-items: flex-start
+  position: relative
+.linea-tiempo-a__text-0:after,.linea-tiempo-a__text-2:after,.linea-tiempo-a__text-4:after,.linea-tiempo-a__text-6:after
+  content: ''
+  position: absolute
+  width: 0
+  height: 0
+  right: -10px
+  top: 41%
+  border-top: 10px solid transparent
+  border-bottom: 10px solid transparent
+  border-left: 10px #f6e0f0 solid
+.linea-tiempo-a__text-1:after,.linea-tiempo-a__text-3:after,.linea-tiempo-a__text-5:after,.linea-tiempo-a__text-7:after
+  content: ''
+  position: absolute
+  width: 0
+  height: 0
+  left: -10px
+  top: 41%
+  border-top: 10px solid transparent
+  border-bottom: 10px solid transparent
+  border-right: 10px #f6e0f0 solid
+.linea-tiempo-a__row::after
+  background: #EA3584
+.linea-tiempo-a.color-acento-contenido .linea-tiempo-a__row::before
+  background-color: #ffffff
+  border: 5px #1b243e solid
+.linea-tiempo-a:after
+  content: ''
+  position: absolute
+  width: 0
+  height: 0
+  border-left: 12px solid transparent
+  border-right: 12px solid transparent
+  border-bottom: 22px solid #1b243e
+  top: -18px
+  left: 49%
+@media only screen and (max-width: 720px)
+  .linea-tiempo-a:after
+    left: 46%
+  .cont_linea_tiempo
+    padding: 0 !important
+    padding-top: 2rem !important
+    padding-bottom: 2rem !important
 </style>
