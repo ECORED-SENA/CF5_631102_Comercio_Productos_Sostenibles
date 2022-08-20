@@ -55,7 +55,7 @@ export default {
   -webkit-animation: float1 3.5s ease-in-out infinite alternate
   animation: float1 3.5s ease-in-out infinite alternate
 .banner-interno__titulo__icono
-  background-color: #12263F
+  background-color: #12263F !important
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
-  color: #12263F
+  color: #12263F !important
 </style>

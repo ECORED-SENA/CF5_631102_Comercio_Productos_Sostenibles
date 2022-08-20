@@ -127,7 +127,7 @@
     .titulo-segundo
       h2#t_2_3 2.3 Productos biodegradables
 
-    .row.cont_backgroundt2_3.pb-5.p-4(style="position:relative;")
+    .row.cont_backgroundt2_3.pb-5(style="position:relative;")
       .col-md-8(style="place-self:center")
         p(data-aos="fade-up" style="position:relative") Los residuos biodegradables son todos los productos que se pueden descomponer fácilmente de forma natural mediante el agua, el oxígeno, los rayos del sol, la radiación o los microorganismos.
         p.mt-4(data-aos="fade-up" style="position:relative") Las sustancias no biodegradables no pueden ser descompuestas por los organismos naturales, por lo que pueden actuar como fuente de contaminación.
