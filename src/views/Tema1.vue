@@ -92,25 +92,25 @@
       .row.mt-5
         .col-md-6.col-lg-3.mb-5.mb-lg-0
           .tarjeta-avatar.d-block(data-aos="zoom-in-up")
-            img(src='@/assets/curso/tema1/7.svg' alt='')
+            img(src='@/assets/curso/tema1/7.svg' alt='' style="max-width:125px")
             .tarjeta.color-primario.d-block(style="background-color:#FFE0F0")
               .p-4
                 h4.text-center(style="position:relative") Precio
         .col-md-6.col-lg-3.mb-5.mb-lg-0
           .tarjeta-avatar.d-block(data-aos="zoom-in-up")
-            img(src='@/assets/curso/tema1/8.svg' alt='')
+            img(src='@/assets/curso/tema1/8.svg' alt='' style="max-width:125px")
             .tarjeta.color-primario.d-block(style="background-color:#EBE3F9;")
               .p-4
                 h4.text-center(style="position:relative") Producto
         .col-md-6.col-lg-3.mb-5.mb-lg-0
           .tarjeta-avatar.d-block(data-aos="zoom-in-up")
-            img(src='@/assets/curso/tema1/9.svg' alt='')
+            img(src='@/assets/curso/tema1/9.svg' alt='' style="max-width:125px")
             .tarjeta.color-primario.d-block(style="background-color:#ECEDF4")
               .p-4
                 h4.text-center(style="position:relative") Plaza #[small(style="font-weight:400;") (lugar o distribución)]
         .col-md-6.col-lg-3.mb-5.mb-lg-0
           .tarjeta-avatar.d-block(data-aos="zoom-in-up")
-            img(src='@/assets/curso/tema1/10.svg' alt='')
+            img(src='@/assets/curso/tema1/10.svg' alt='' style="max-width:125px")
             .tarjeta.color-primario.d-block(style="background-color:#E8E8E8")
               .p-4
                 h4.text-center(style="position:relative") Promoción #[small(style="font-weight:400;") (comunicación)]
@@ -179,7 +179,7 @@
       .py-4.py-md-5(titulo="Precio verde")
         .row
           .col-md-3.mb-4.mb-md-0
-            figure.text-end
+            figure.text-center
               img(src='@/assets/curso/tema1/15.svg' style="max-width:200px;display:inline;")
           .col-md-9
             h4 Precio verde
@@ -216,7 +216,7 @@
           iframe(width="560" height="315" src="https://www.youtube.com/embed/PbdVwChb71Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       Separador
 
-    .titulo-segundo
+    .titulo-segundo.mt-5
       h2#t_1_4 1.4 Factores de éxito del mercadeo verde
 
     p(data-aos="fade-up") Existen cinco (5) puntos claves del mercadeo verde para tener en cuenta, los cuales permiten desarrollar habilidades eficaces de #[em marketing] verde y se convierten en una guía para evitar caer en el #[em greenwashing] y cometer errores. Los cinco puntos clave se describen a continuación:

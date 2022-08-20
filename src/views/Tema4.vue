@@ -16,7 +16,7 @@
         h5.mt-3.text-center(data-aos="fade-up" style="position:relative;font-size:20px") Primarios
       .col-md-4
         figure.text-center.cont__image2(style="position:relative;")
-          img(src="@/assets/curso/tema4/2.svg" data-aos="zoom-in-up" style="display:inline;max-width:200px;")
+          img(src="@/assets/curso/tema4/2.png" data-aos="zoom-in-up" style="display:inline;max-width:200px;")
         h5.mt-3.text-center(data-aos="fade-up" style="position:relative;font-size:20px") Secundarios
       .col-md-4
         figure.text-center.cont__image3(style="position:relative;")
@@ -28,6 +28,8 @@
         h5(data-aos="fade-up" style="font-size:24px;") A la primera categoría se le llama envase; a la segunda, se le llama empaque; y a la tercera, se le llama embalaje.
       .col-md-7
         p(data-aos="fade-up") Además, la tendencia es utilizar envases, empaques y embalajes con características reciclables, ecológicas y biodegradables, tal como el cartón corrugado, debido a que emplean menos consumo de materias primas y de energía, respetando el entorno y teniendo en cuenta la sostenibilidad ambiental.
+
+    Separador
 
     .titulo-segundo.mt-5
       h2#t_4_1 4.1  Envases ecológicos y biodegradables 
@@ -45,7 +47,7 @@
             i.fas.fa-quote-right(style="float:right;")
       .col-md-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema4/5.svg" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema4/5.png" data-aos="zoom-in-up")
 
     p.mt-5(data-aos="fade-up") Los envases biodegradables tienen como ingrediente principal un material vegetal, el cual se descompone naturalmente, sin ocasionar alguna afectación al ambiente.
 
@@ -56,14 +58,14 @@
 
     p(data-aos="fade-up") Según la definición de empaque del Centro Internacional de Negocios (s. f.), es #[strong(style="color:#EF3481;") "la presentación comercial de la mercancía, contribuyendo a la seguridad de ésta durante sus desplazamientos y lográndose vender, dándole una buena imagen visual y distinguiéndose de los productos de la competencia”].
 
-    .row.mt-5.cont_backgroundt4_2(style="position:relative")
+    .row.mt-1.cont_backgroundt4_2(style="position:relative")
       p(data-aos="fade-up" style="position:relative") El empaque es la manera en que se presenta el producto en las tiendas para su venta. #[strong(style="color:#EF3481;") Está más enfocado al #[em marketing] y su principal objetivo es vender. A veces, el empaque suele ser el mismo envase, pero no siempre. También es conocido como empaque secundario.] Actualmente, existen emprendimientos que elaboran sustitutos de bolsas plásticas y de otros tipos de empaques, para hacerlos ecológicos y biodegradables.
 
       .cajon.color-acento-botones.p-4.mb-4.col-md-10.m-auto.mt-4.row(style="background-color:#EBE3F9;")
-        .col-auto(style="place-self:center")
-          figure
-            img(src="@/assets/curso/tema4/6.svg" data-aos="zoom-in-up" style="position:relative")
-        .col(style="place-self:center")
+        .col-md-3(style="place-self:center")
+          figure.text-center
+            img(src="@/assets/curso/tema4/6.svg" data-aos="zoom-in-up" style="position:relative;display:inline;max-width:150px")
+        .col-md-9(style="place-self:center")
           h5(data-aos="fade-up" style="position:relative") Ejemplos
           p.mt-4(data-aos="fade-up" style="position:relative") Bioplásticos, usando como materia prima el almidón de maíz; talegas de algodón, bolsas reutilizables y mochilas; jabón de manos, lavaloza, cuyos ingredientes son derivados de plantas y minerales y pueden ser biodegradables. Además, algunos de estos productos cuentan con certificados de #[strong “producto vegano”] o #[strong “libre de crueldad animal”], así como con procesos de fabricación de envases libres de parabenos.
 
@@ -75,7 +77,7 @@
     .row.col-md-9.m-auto
       .col-md-5(style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema4/8.svg" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema4/8.png" data-aos="zoom-in-up")
       .col-md-7
         .bloque-texto-b.color-secundario.p-4
           .bloque-texto-b__texto
@@ -87,8 +89,7 @@
             br
             p(data-aos="fade-up" style="font-size:16px")  Centro Internacional de Negocios (s. f.)
 
-    p.mt-4.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") El embalaje es una forma de empaque que envuelve, continue, protege y conserva los productos envasados y/o empaquetados y va mas orientado a la protección del producto durante el transporte logístico. No necesariamente debe ser una caja, tambien puede ser el plástico que ponemos alrededor de un producto envasado o empaquetado.
-    p.mt-4.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") Con frecuencia, también se le conoce al embalaje como un empaque terciario que sirve para transportar los productos y en el que se informan las especificaciones de manipulación, los requisitos, símbolos y lo que contiene en la parte externa.
+    p.mt-4.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") El embalaje es una forma de empaque que envuelve, continue, protege y conserva los productos envasados y/o empaquetados y va mas orientado a la protección del producto durante el transporte logístico. No necesariamente debe ser una caja, tambien puede ser el plástico que ponemos alrededor de un producto envasado o empaquetado. #[br] #[br] Con frecuencia, también se le conoce al embalaje como un empaque terciario que sirve para transportar los productos y en el que se informan las especificaciones de manipulación, los requisitos, símbolos y lo que contiene en la parte externa.
 
     .row.mt-5.cont_backgroundt4_3(style="position:relative")
       .col-md-8.m-auto.mt-4.p-4(style="background-color:#F6F6F6;")
@@ -104,7 +105,7 @@
     .titulo-segundo
       h2#t_4_4 4.4 Ficha técnica
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/11.svg')})`}"
       )
@@ -162,10 +163,10 @@
             h1.mb-0(style="color:#98A1B4;font-size:59px") 07
 
     .row.mt-5.p-3(style="background-color:#E8E8E8;border-radius:15px;")
-      .col-md-1(style="place-self:center")
+      .col-md-2(style="place-self:center")
         figure.text-center
           img(src="@/assets/curso/tema4/13.svg" data-aos="fade-left" style="display:inline;max-width:100px")
-      .col-md-8(style="place-self:center")
+      .col-md-7(style="place-self:center")
         p(data-aos="fade-up") #[strong A continuación, se presenta un ejemplo de ficha técnica para un tablero digital de la marca registrada LG. La idea es que se visualice, pero solo con el propósito de saber cómo se crea dicha ficha técnica.]
       .col-md-3.text-center(style="place-self:center")
         a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/ficha_tecnica_tablero_digital_interactivo_LG.pdf')" target="_blank" type="application/pdf")
@@ -173,14 +174,14 @@
           i.fas.fa-file-download
 
     .row.mt-5
-      .col-md-8(style="place-self:center")
+      .col-md-8.mb-4(style="place-self:center")
         .cajon-b.color-secundario.p-3.mb-5
           p.mb-0(data-aos="fade-right") Una ficha técnica se utiliza tanto con fines informativos como publicitarios. Desde el punto de vista informativo, contiene consejos útiles sobre el producto, como por ejemplo cómo utilizarlo, de qué está hecho, qué cosas hay que tener en cuenta al utilizar el producto y su nombre oficial y las especificaciones estándar de la industria. Desde el punto de vista del #[em marketing], puede contener fotos e ilustraciones en color, así como secciones enteras en las que se describen los beneficios que el producto aportará al usuario final.
         .row.mt-4.p-3(style="background-color:#E8E8E8;border-radius:15px;")
-          .col-md-1(style="place-self:center")
+          .col-md-2(style="place-self:center")
             figure.text-center
               img(src="@/assets/curso/tema4/13.svg" data-aos="fade-left" style="display:inline;max-width:100px")
-          .col-md-8(style="place-self:center")
+          .col-md-7(style="place-self:center")
             p(data-aos="fade-up") #[strong A continuación, se comparte otro ejemplo de ficha técnica, pero este ya elaborado en el SENA.]
           .col-md-3.text-center(style="place-self:center")
             a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/OKEst_Ficha_tecnica_SENA.pdf')" target="_blank" type="application/pdf")
@@ -199,7 +200,7 @@
     p(data-aos="fade-up") #[strong(style="color:#EA3584;") En esta herramienta nos detendremos un momento para analizar los diferentes aspectos relevantes de su implementación en los Negocios verdes. El Sello Ambiental Colombiano está regulado mediante la resolución 1555 de 2005, del MADS.] En esta se define el ecoetiquetado como un instrumento económico que permite la incorporación de costos ambientales, al establecer criterios que garantizan un mejor desempeño ambiental del producto respecto de aquellos sustitutos. #[strong(style="color:#EA3584;") Estos costos, causados por el deterioro ambiental generado por la producción de determinado bien o servicio, de otra manera habrían sido asumidos por la sociedad.]
 
     .row.mt-5.cont_backgroundt4_2(style="position:relative")
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.col-md-10.m-auto
+      .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.col-md-10.m-auto
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/tema4/15.svg')})`}"
         )
@@ -249,25 +250,25 @@
 
     .mt-5.cont_backgroundt4_3(style="position:relative")
       .row.p-4.col-md-10.m-auto(style="background-color:#EBE3F9;border-radius:25px;position:relative")
-        .col-md-3(style="place-self:center;border-right:3px #ADA9B4 dashed;")
+        .col-md-3.cont_borde_dashed(style="place-self:center;border-right:3px #ADA9B4 dashed;")
           figure.text-center(style="")
             img(src="@/assets/curso/tema4/16.svg" data-aos="fade-right" style="display:inline;max-width:200px")
         .col-md-9(style="place-self:center")
           p.ps-3(data-aos="fade-left") Green Seal (Estados Unidos) - El programa de certificación considera criterios como consumo de recursos renovables y energía, la contaminación atmosférica y de las aguas, y la generación de residuos. 
       .row.mt-4.p-4.col-md-10.m-auto(style="background-color:#E8E8E8;border-radius:25px;position:relative")
-        .col-md-3(style="place-self:center;border-right:3px #ADA9B4 dashed;")
+        .col-md-3.cont_borde_dashed(style="place-self:center;border-right:3px #ADA9B4 dashed;")
           figure.text-center(style="")
             img(src="@/assets/curso/tema4/17.svg" data-aos="fade-right" style="display:inline;max-width:200px")
         .col-md-9(style="place-self:center")
           p.ps-3(data-aos="fade-left") Environmental Choice (Canadá) - Certifica productos y servicios que ahorran energía, que utilizan material reciclado o que puedan reutilizarse.
       .row.mt-4.p-4.col-md-10.m-auto(style="background-color:#EBE3F9;border-radius:25px;position:relative")
-        .col-md-3(style="place-self:center;border-right:3px #ADA9B4 dashed;")
+        .col-md-3.cont_borde_dashed(style="place-self:center;border-right:3px #ADA9B4 dashed;")
           figure.text-center(style="")
             img(src="@/assets/curso/tema4/18.svg" data-aos="fade-right" style="display:inline;max-width:200px")
         .col-md-9(style="place-self:center")
           p.ps-3(data-aos="fade-left") Eco-Mark (Japón) - Evalúa por separado las fases del ciclo de vida total del producto, basándose en los siguientes criterios: mínimo impacto ambiental en la fase de uso, mejora del medio ambiente durante el uso, mínimos efectos ambientales en la fase pastuso (residuos), contribución a la conservación del medio ambiente.
       .row.mt-4.p-4.col-md-10.m-auto(style="background-color:#E8E8E8;border-radius:25px;position:relative")
-        .col-md-3(style="place-self:center;border-right:3px #ADA9B4 dashed;")
+        .col-md-3.cont_borde_dashed(style="place-self:center;border-right:3px #ADA9B4 dashed;")
           figure.text-center(style="")
             img(src="@/assets/curso/tema4/19.svg" data-aos="fade-right" style="display:inline;max-width:200px")
         .col-md-9(style="place-self:center")
@@ -282,13 +283,18 @@
 
     .row.mt-5
       .col-md-3(style="place-self:center")
-        figure.text-center
-          img(src="@/assets/curso/tema4/20.svg" data-aos="fade-right")
+        .row.pb-3.pt-3(data-aos="zoom-in-up" style="background-color:white;border-radius:20px;box-shadow:0px 0px 10px rgba(0,0,0,.1);")
+          .col-auto(style="place-self:center")
+            figure
+              img(src="@/assets/curso/tema4/24.png")
+          .col(style="place-self:center")
+            h4.mb-0 Etiquetado ecologico
+
       .col-md-9(style="place-self:center")
         p(data-aos="fade-left") Actualmente, varias cadenas de supermercados y el sector alimentos han evidenciado la importancia de producir y comercializar productos que contemplen criterios ambientales por dos razones centrales:
 
     .row.mt-5.cont_backgroundt4_4.pb-5(style="position:relative")
-      .col-md-6
+      .col-md-6.mb-4
         .cajon.color-acento-botones.p-4.mb-4(style="background-color:#EBE3F9;height:100%;")
           p.mb-0(data-aos="fade-up") Mostrar los beneficios y la calidad de los productos que consideran prácticas ambientales sostenibles a comparación de productos que no las toman en cuenta.
       .col-md-6
@@ -356,10 +362,10 @@
     p.mt-3(data-aos="fade-up") Según la norma ISO 14020, las etiquetas ambientales:
 
     .row.col-md-10.m-auto.mt-5
-      .col-md-3.p-0(style="place-self:center")
-        .p-4(style="background-color:#ECEDF4;height:100%;")
+      .col-md-3.p-0
+        .p-4.d-flex.align-items-center(style="background-color:#ECEDF4;height:100%;")
           figure.text-center
-            img(src="@/assets/curso/tema4/23.svg" data-aos="zoom-in-up" style="display:inline;max-width:300px")
+            img(src="@/assets/curso/tema4/23.svg" data-aos="zoom-in-up" style="display:inline;max-width:150px")
       .col-md-9.p-0(style="place-self:center")
         .p-4(style="background-color:#EBE3F9;height:100%;")
           ul.lista-ul.mt-4
@@ -493,4 +499,7 @@ export default {
   background-repeat: no-repeat
   background-size: 1650px
   background-position: top
+@media only screen and (max-width: 764px)
+  .cont_borde_dashed
+    border: 0 !important
 </style>

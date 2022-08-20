@@ -18,21 +18,22 @@
         figure.text-center
           img(src="@/assets/curso/tema3/2.png" data-aos="fade-right" style="display:inline;")
       .col(style="place-self:center")
-        p.mb-0(data-aos="fade-left") #[i.fas.fa-circle(style="color:#EA3584;")] Una forma muy acertada de cómo hacer hincapié en la fecha de caducidad del contenido de los alimentos aunque se ignora por completo cuándo caducará su envase.  En este ejemplo, un tarro de sardinas, el tarro no caducará hasta dentro de 4000 años. Se trata de una muestra muy sencilla que permite a la gente replantearse cómo se deshace de los envases y que puede presionar a los fabricantes para que también tengan en cuenta el diseño de sus envases.
+        p.mb-0(data-aos="fade-left") #[i.fas.fa-circle(style="color:#EA3584;font-size:8px;")] Una forma muy acertada de cómo hacer hincapié en la fecha de caducidad del contenido de los alimentos aunque se ignora por completo cuándo caducará su envase.  En este ejemplo, un tarro de sardinas, el tarro no caducará hasta dentro de 4000 años. Se trata de una muestra muy sencilla que permite a la gente replantearse cómo se deshace de los envases y que puede presionar a los fabricantes para que también tengan en cuenta el diseño de sus envases.
     .col-md-10.m-auto.row.pb-4.pt-4.mt-3(style="border-top:3px #AFAFAF solid;")
       .col-auto(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema3/3.png" data-aos="fade-right" style="display:inline;")
       .col(style="place-self:center")
-        p.mb-0(data-aos="fade-left") #[i.fas.fa-circle(style="color:#EA3584;")] Surfrider es una organización benéfica famosa por sus grandes campañas de concienciación y ésta no es una excepción.  Butts-n-bits es una gran ejecución de una idea sencilla. Con 200 millones de libras de colillas desechadas en los Estados Unidos cada año, en el futuro estas colillas representan todo lo que el océano podría ofrecer.
+        p.mb-0(data-aos="fade-left") #[i.fas.fa-circle(style="color:#EA3584;font-size:8px;")] Surfrider es una organización benéfica famosa por sus grandes campañas de concienciación y ésta no es una excepción.  Butts-n-bits es una gran ejecución de una idea sencilla. Con 200 millones de libras de colillas desechadas en los Estados Unidos cada año, en el futuro estas colillas representan todo lo que el océano podría ofrecer.
     .col-md-10.m-auto.row.pb-4.pt-4.mt-3(style="border-top:3px #AFAFAF solid;border-bottom:3px #AFAFAF solid;")
       .col-auto(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema3/4.png" data-aos="fade-right" style="display:inline;")
       .col(style="place-self:center")
-        p.mb-0(data-aos="fade-left") #[i.fas.fa-circle(style="color:#EA3584;")] Aunque no es una campaña específica sobre el reciclaje, esta campaña de la agencia brasileña aborda el tema general de cómo se trata el medio ambiente en general. Esta campaña para ondazul.org.br se basa en el hecho de que poca gente piensa en las consecuencias de sus acciones cuando se trata del medio ambiente. La campaña saca a relucir las consecuencias de las acciones humanas y cómo estas acciones sólo son autodestructivas.
+        p.mb-0(data-aos="fade-left") #[i.fas.fa-circle(style="color:#EA3584;font-size:8px;")] Aunque no es una campaña específica sobre el reciclaje, esta campaña de la agencia brasileña aborda el tema general de cómo se trata el medio ambiente en general. Esta campaña para ondazul.org.br se basa en el hecho de que poca gente piensa en las consecuencias de sus acciones cuando se trata del medio ambiente. La campaña saca a relucir las consecuencias de las acciones humanas y cómo estas acciones sólo son autodestructivas.
 
-    br
+    Separador
+
     .titulo-segundo.mt-5
       h2#t_3_1 3.1  Técnicas de recolección de información
 
@@ -59,28 +60,32 @@
               i.fas.fa-circle(style="color:#EA3584;")
               | Entrevistas
 
-    figure.mt-5
-      img(src="@/assets/curso/tema3/6.svg" data-aos="fade-up" style="max-width:330px;")
+    .row.mt-5.aos-init.aos-animate(data-aos='fade-right')
+      .col-2.col-md-1.bgr_12
+        figure
+          img(src='@/assets/curso/tema3/37.svg' alt='Texto que describa la imagen')
+      .col-10.col-md-11.bgr_11.d-flex.align-items-center
+        h3.mb-0 Método de observación
 
     p.mt-4(data-aos="fade-up") El método de observación es el registro visual de una situación real, dichas observaciones se pueden recopilar en notas de campo o plataformas de recolección de datos y sus principales características son:
 
-    .row.mt-5
+    .row
       .col-md-4.mb-5
         div.tarjeta.text-center.indicador__container.cont_hover(style="position:relative;overflow:hidden;" @mouseover="indicadorTarjetaSlide1 = false")
           .indicador--hover(v-if="indicadorTarjetaSlide1")
-          div.text-white.m-auto.cont_hover__numero(style="width:80px;background-color:#6B2EC4;border-radius:50%;font-size:42px;font-weight:bold;padding:0px 0px;border:6px #E3E3F9 solid;position:relative;bottom:-40px;z-index:1;") 1
+          div.text-white.m-auto.cont_hover__numero(style="width:80px;background-color:#6B2EC4;border-radius:50%;font-size:30px;font-weight:bold;padding:.5rem 0px;border:6px #E3E3F9 solid;position:relative;bottom:-40px;z-index:1;") 1
           figure.text-center(style="position:relative")
             img(src="@/assets/curso/tema3/7.svg" data-aos="zoom-in-up")
             .cont_hover__texto Técnica de investigación básica.
       .col-md-4.mb-5
         div.tarjeta.text-center.indicador__container.cont_hover(style="position:relative;overflow:hidden;" @mouseover="indicadorTarjetaSlide1 = false")
-          div.text-white.m-auto.cont_hover__numero(style="width:80px;background-color:#6B2EC4;border-radius:50%;font-size:42px;font-weight:bold;padding:0px 0px;border:6px #E3E3F9 solid;position:relative;bottom:-40px;z-index:1;") 2
+          div.text-white.m-auto.cont_hover__numero(style="width:80px;background-color:#6B2EC4;border-radius:50%;font-size:30px;font-weight:bold;padding:.5rem 0px;border:6px #E3E3F9 solid;position:relative;bottom:-40px;z-index:1;") 2
           figure.text-center(style="position:relative")
             img(src="@/assets/curso/tema3/8.svg" data-aos="zoom-in-up")
             .cont_hover__texto Establece relación básica entre el observador y el objeto a observar.
       .col-md-4.mb-5
         div.tarjeta.text-center.indicador__container.cont_hover(style="position:relative;overflow:hidden;" @mouseover="indicadorTarjetaSlide1 = false")
-          div.text-white.m-auto.cont_hover__numero(style="width:80px;background-color:#6B2EC4;border-radius:50%;font-size:42px;font-weight:bold;padding:0px 0px;border:6px #E3E3F9 solid;position:relative;bottom:-40px;z-index:1;") 3
+          div.text-white.m-auto.cont_hover__numero(style="width:80px;background-color:#6B2EC4;border-radius:50%;font-size:30px;font-weight:bold;padding:.5rem 0px;border:6px #E3E3F9 solid;position:relative;bottom:-40px;z-index:1;") 3
           figure.text-center(style="position:relative")
             img(src="@/assets/curso/tema3/9.svg" data-aos="zoom-in-up")
             .cont_hover__texto Es el comienzo de la comprensión de la realidad.
@@ -92,7 +97,7 @@
         .row.col-md-10.m-auto
           .col-md-3.mb-4.mb-md-0(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/11.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/11.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
           .col-md-9(style="place-self:center")
             h5 Observación casual
             p Incluye observaciones de rutina y no planificadas que se pueden realizar en cualquier momento del día.
@@ -102,11 +107,11 @@
             p Comprende observaciones planificadas y organizadas que tienen lugar en momentos específicos en momentos específicos.
           .col-md-3(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/12.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/12.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
         .row.col-md-10.m-auto
           .col-md-3.mb-4.mb-md-0(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/13.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/13.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
           .col-md-9(style="place-self:center")
             h5 Observación focalizada
             p Consiste en la observación de un aspecto determinado.
@@ -116,11 +121,11 @@
             p Es aquella en la que no solo se observa pasivamente, sino que hay una interacción que ayuda a comprender otros aspectos.
           .col-md-3(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/14.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/14.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
         .row.col-md-10.m-auto
           .col-md-3.mb-4.mb-md-0(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/15.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/15.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
           .col-md-9(style="place-self:center")
             h5 Observación no participativa
             p Es aquella que recoge información del exterior sobre los hechos y fenómenos que se estudian sin la intervención de grupos sociales.
@@ -130,11 +135,11 @@
             p Es cuando el observador individual se expone a la realidad o fenómeno que intenta estudiar.
           .col-md-3(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/16.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/16.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
         .row.col-md-10.m-auto
           .col-md-3.mb-4.mb-md-0(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/17.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/17.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
           .col-md-9(style="place-self:center")
             h5 Observación indirecta 
             p Es cuando el observador se da cuenta de un evento o fenómeno al observar a través de observaciones que han sido realizadas anteriormente por otros.
@@ -144,11 +149,11 @@
             p Se realiza de forma individual, por lo que debe hacerse sola.
           .col-md-3(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/18.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/18.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
         .row.col-md-10.m-auto
           .col-md-3.mb-4.mb-md-0(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/19.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/19.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
           .col-md-9(style="place-self:center")
             h5 Observación en equipo o grupo 
             p Está hecho por un grupo o varias personas que forman un grupo.
@@ -158,11 +163,11 @@
             p Se logra construyendo un sistema de guía de observación paso a paso y colocándolo en relación con todo el proceso de investigación en curso.
           .col-md-3(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/20.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/20.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
         .row.col-md-10.m-auto
           .col-md-3.mb-4.mb-md-0(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/21.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/21.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
           .col-md-9(style="place-self:center")
             h5 Observación abierta 
             p Se realiza libremente y no tiene una estructura organizada. Se usa cuando se quiere captar un movimiento espontáneo.
@@ -172,19 +177,23 @@
             p Este tipo de observación comienza con instrucciones estructuradas, pero se aplica de manera flexible según el formato de la observación.
           .col-md-3(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/22.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/22.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
         .row.col-md-10.m-auto
           .col-md-3.mb-4.mb-md-0(style="place-self:center")
             figure.text-center
-              img(src='@/assets/curso/tema3/23.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:120px")
+              img(src='@/assets/curso/tema3/23.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
           .col-md-9(style="place-self:center")
             h5 Observación participante
             p El sujeto que es observado se considera miembro del grupo que observa.
 
     p.mt-5(data-aos="fade-up") Como las observaciones tienen propósitos claros y bien definidos, están sujetas a comprobación por lo que deben tener un plan definido específico y un plan de trabajo claro para lograr los objetivos, también tiene el control sobre los datos tomados sistemáticamente, lo cual permite cumplir los requisitos de confiabilidad y validez, cuyos resultados se establecen por escrito.
           
-    figure.mt-5
-      img(src="@/assets/curso/tema3/24.svg" data-aos="fade-up" style="max-width:330px;")
+    .row.mt-5.aos-init.aos-animate(data-aos='fade-right')
+      .col-2.col-md-1.bgr_12
+        figure
+          img(src='@/assets/curso/tema3/37.svg' alt='Texto que describa la imagen')
+      .col-10.col-md-11.bgr_11.d-flex.align-items-center
+        h3.mb-0 Cuestionarios o encuestas
 
     .row.cont_backgroundt3_2.pb-5.mt-5(style="position:relative;")
       p(data-aos="fade-up" style="position:relative") Este método implica recopilar información que es proporcionada directamente por los sujetos de estudio, con el fin de conocer actitudes, opiniones o sugerencias de ellos mismos, así como tener en cuenta que esta técnica permite aplicaciones masivas. Algunos de los tipos de cuestionarios son los que se observan en la siguiente tabla.
@@ -248,8 +257,12 @@
           figure.text-center
             img(src="@/assets/curso/tema3/26.svg" data-aos="fade-left" style="position:relative")
 
-    figure.mt-5
-      img(src="@/assets/curso/tema3/36.svg" data-aos="fade-up" style="max-width:330px;")
+    .row.mt-5.aos-init.aos-animate(data-aos='fade-right')
+      .col-2.col-md-1.bgr_12
+        figure
+          img(src='@/assets/curso/tema3/37.svg' alt='Texto que describa la imagen')
+      .col-10.col-md-11.bgr_11.d-flex.align-items-center
+        h3.mb-0 Grupos focales
 
     p.mt-4(data-aos="fade-up") Esta técnica consiste en que las personas llevan a cabo una reunión donde pueden opinar y solucionar un problema en específico; una de las cualidades de esta herramienta es que permite tomar diferentes perspectivas sobre un mismo tema y llegar a la mejor solución.
 
@@ -268,13 +281,13 @@
       .col-md-9
         ul.lista-ul.mt-4.ps-4(style="position:relative")
           li(data-aos="fade-up")
-            i.fas.fa-atom(style="color:#6826CC;")
+            i.fas.fa-atom(style="color:#EA3584;")
             | Recopilar información de lanzamiento relevante, mejorar los productos existentes y obtener ideas para el desarrollo de nuevos productos.
           li(data-aos="fade-up")
-            i.fas.fa-atom(style="color:#6826CC;")
+            i.fas.fa-atom(style="color:#EA3584;")
             | Verificar que la selección del respectivo público objetivo y segmentos de mercado sea correcta.
           li(data-aos="fade-up")
-            i.fas.fa-atom(style="color:#6826CC;")
+            i.fas.fa-atom(style="color:#EA3584;")
             | Identificar por qué el producto está perdiendo popularidad y qué se debe cambiar para recuperar a sus espectadores.
 
     p.mt-5(data-aos="fade-up") Dentro de los grupos focales es importante considerar la forma en que se puede organizar y para ello, podrá conocerlo a través del siguiente recurso: 
@@ -284,8 +297,12 @@
       figure.text-center.mt-5
         img(src="@/assets/curso/tema3/29.svg" data-aos="zoom-in-up")
 
-    figure.mt-5
-      img(src="@/assets/curso/tema3/30.svg" data-aos="fade-up" style="max-width:330px;")
+    .row.mt-5.aos-init.aos-animate(data-aos='fade-right')
+      .col-2.col-md-1.bgr_12
+        figure
+          img(src='@/assets/curso/tema3/37.svg' alt='Texto que describa la imagen')
+      .col-10.col-md-11.bgr_11.d-flex.align-items-center
+        h3.mb-0 Entrevistas
 
     p.mt-4(data-aos="fade-up") La entrevista es una técnica de recolección de información muy efectiva en la investigación cualitativa. Se define como una conversación que ofrece un propósito específico, además de hablar es una herramienta técnica que toma la forma de un diálogo conversacional.
 
@@ -411,4 +428,13 @@ export default {
   background-position: bottom
 .cajon.color-secundario:before
   background-color: #12263F
+.bgr_12
+  background-color: #ecedf4
+  padding-left: 0
+.bgr_11
+  background: #ecedf4
+  background: linear-gradient(90deg,#ecedf4,#fff)
+  width: -webkit-fit-content
+  width: -moz-fit-content
+  width: fit-content
 </style>

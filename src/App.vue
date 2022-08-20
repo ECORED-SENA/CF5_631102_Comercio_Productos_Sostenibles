@@ -54,4 +54,8 @@ export default {
   right: 15% !important
   -webkit-animation: float1 3.5s ease-in-out infinite alternate
   animation: float1 3.5s ease-in-out infinite alternate
+.banner-interno__titulo__icono
+  background-color: #12263F
+.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
+  color: #12263F
 </style>

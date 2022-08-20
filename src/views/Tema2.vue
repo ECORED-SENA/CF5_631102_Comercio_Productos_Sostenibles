@@ -9,18 +9,21 @@
 
     p(data-aos="fade-up") Para garantizar el avance y sostenibilidad de las sociedades modernas es necesario que las organizaciones giren su producción hacia un enfoque de consumo y producción que contribuya a reducir los efectos ambientales negativos de los sistemas de producción, distribución y consumo, pues según datos de la ONU (2015) “el progreso económico y social conseguido durante el último siglo ha estado acompañado de una degradación medioambiental que está poniendo en peligro los mismos sistemas de los que depende el desarrollo futuro (y ciertamente, la supervivencia)”. 
 
-    .row.mt-5.cont_backgroundt2_1.pb-5.p-4(style="position:relative;background-color:#EBE3F9;")
-      .col-md-4(style="place-self:center;")
-        figure.text-center
-          img(src="@/assets/curso/tema2/2.svg" data-aos="fade-right" style="display:inline;position:relative;")
-      .col-md-8(style="place-self:center;")
-        p(data-aos="fade-up" style="position:relative;") Para lo cual, se deben tener en cuenta las etapas del ciclo de vida de los productos y servicios, promoviendo al mismo tiempo, la calidad de vida de los seres humanos
-        p.mt-4(data-aos="fade-up" style="position:relative;") En esa medida, para aliviar la presión sobre los ecosistemas se deben formular y aplicar políticas de sostenibilidad económica, social y ambiental. A su vez, es necesario que las organizaciones trabajen en la gestión de una normativa de producción sostenible que propenda por la reutilización de subproductos resultantes de la cadena productiva. En ese sentido, es necesario que las organizaciones fomenten la innovación ecológica para generar una producción más limpia dentro de la concepción de ciclo de vida en la cadena de fabricación (ONU Medio Ambiente, 2017).  
-        p.mt-4.mb-0(data-aos="fade-up" style="position:relative;") La producción sostenible es la manera en que las organizaciones ponen a disposición las políticas para la preservación del medio ambiente y se acogen a las normativas y principios de sostenibilidad en el marco jurídico de la producción sostenible establecido por los países.
+    .mt-5.cont_backgroundt2_1.pb-5(style="position:relative;")
+      .row.p-4(style="position:relative;background-color:#EBE3F9;")
+        .col-md-4(style="place-self:center;")
+          figure.text-center
+            img(src="@/assets/curso/tema2/2.svg" data-aos="fade-right" style="display:inline;position:relative;")
+        .col-md-8(style="place-self:center;")
+          p(data-aos="fade-up" style="position:relative;") Para lo cual, se deben tener en cuenta las etapas del ciclo de vida de los productos y servicios, promoviendo al mismo tiempo, la calidad de vida de los seres humanos
+          p.mt-4(data-aos="fade-up" style="position:relative;") En esa medida, para aliviar la presión sobre los ecosistemas se deben formular y aplicar políticas de sostenibilidad económica, social y ambiental. A su vez, es necesario que las organizaciones trabajen en la gestión de una normativa de producción sostenible que propenda por la reutilización de subproductos resultantes de la cadena productiva. En ese sentido, es necesario que las organizaciones fomenten la innovación ecológica para generar una producción más limpia dentro de la concepción de ciclo de vida en la cadena de fabricación (ONU Medio Ambiente, 2017).  
+          p.mt-4.mb-0(data-aos="fade-up" style="position:relative;") La producción sostenible es la manera en que las organizaciones ponen a disposición las políticas para la preservación del medio ambiente y se acogen a las normativas y principios de sostenibilidad en el marco jurídico de la producción sostenible establecido por los países.
 
     p.mt-5(data-aos="fade-up") En el siguiente recurso podrá conocer la relación de la producción sostenible con el uso responsable de los recursos naturales:
 
     SlyderC.mt-5(:datos="datosSlyder1")
+
+    Separador
 
     .titulo-segundo.mt-5
       h2#t_2_1 2.1  Beneficios en la producción
@@ -58,8 +61,8 @@
         div.cont_parrafo1.p-4(style="position:relative;background-color:#EBE3F9;")
           p(data-aos="fade-up" style="position:relative") Lo anterior, permite que se evite a largo plazo el daño del medio ambiente, en la preservación de los ecosistemas y así según la ONU (2017), lo que genera reducir la vulnerabilidad a los desastres de la sociedad a largo plazo, evitando que haya más personas pobres y damnificados por el cambio climático, pues es necesario optimizar la resiliencia de los sistemas ecológicos para reducir la exposición y la vulnerabilidad de los pobres a los desastres naturales. Entonces, la producción sostenible trae beneficios en el bienestar de la humanidad y del medio ambiente, garantizando la gestión de los recursos finitos del planeta a través de una economía responsable.
       .col-md-2(style="place-self:center")
-        figure
-          img(src="@/assets/curso/tema2/11.svg" data-aos="fade-left" style="position:relative")
+        figure.text-center
+          img(src="@/assets/curso/tema2/11.svg" data-aos="fade-left" style="position:relative;max-width:200px;display:inline;")
 
     .row.mt-5.cont_backgroundt2_2.pb-5.p-4(style="position:relative;")
       .col-md-4(style="place-self:center")
@@ -128,7 +131,7 @@
       .col-md-8(style="place-self:center")
         p(data-aos="fade-up" style="position:relative") Los residuos biodegradables son todos los productos que se pueden descomponer fácilmente de forma natural mediante el agua, el oxígeno, los rayos del sol, la radiación o los microorganismos.
         p.mt-4(data-aos="fade-up" style="position:relative") Las sustancias no biodegradables no pueden ser descompuestas por los organismos naturales, por lo que pueden actuar como fuente de contaminación.
-        p.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") En el siguiente video, se habla sobre los productos biodegradables y su tratamiento, se invita a observarlo para aclarar lo relacionado con esta temática:
+        p.col-md-11.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") En el siguiente video, se habla sobre los productos biodegradables y su tratamiento, se invita a observarlo para aclarar lo relacionado con esta temática:
       .col-md-4(style="place-self:center")
         figure.text-center
           img(src='@/assets/curso/tema2/20.png' data-aos="fade-left" style="display:inline;position:relative")
@@ -220,7 +223,6 @@ export default {
   left: -7%
   background: url(../assets/curso/tema2/1.svg)
   background-repeat: no-repeat
-  background-size: 1550px
   background-position: center
 .slyder-c__content__header h3
   font-weight: 500
@@ -274,6 +276,7 @@ export default {
   left: -15%
 .tabs-c.color-acento-botones .tabs-c__tab--active
   background-color: #EBE3F9
+  font-weight: bold
 .tabs-c__header
   margin-bottom: 0px
 .cont_backgroundt2_3:before
@@ -294,4 +297,11 @@ export default {
   background: url(../assets/curso/tema2/21.png)
   background-repeat: no-repeat
   background-size: cover
+@media only screen and (max-width: 720px)
+  .cont_parrafo1:before
+    width: 100%
+    left: 0
+  .cont_parrafo2:before
+    width: 100%
+    left: 0
 </style>
