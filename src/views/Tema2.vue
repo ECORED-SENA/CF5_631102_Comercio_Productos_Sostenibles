@@ -143,7 +143,7 @@
     .titulo-segundo.mt-5
       h2#t_2_4 2.4 Productos orgánicos
 
-    .row.cont_backgroundt2_4.pb-5.p-4(style="position:relative;")
+    .row.cont_backgroundt2_4.pb-5(style="position:relative;")
       p(data-aos="fade-up" style="position:relative") La característica principal de los productos orgánicos es que su proceso de producción está libre de plaguicidas, fertilizantes químicos. Son productos libres de hormonas, antibióticos, colorantes y saborizantes artificiales.
       p.mt-4.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") Los alimentos ecológicos certificados por el departamento de agricultura de Estados Unidos, USDA se cultivan y procesan de acuerdo con las directrices gubernamentales que abordan, entre otros muchos factores, así:
       ImagenInfografica.color-acento-botones.mt-5.col-md-10.m-auto(data-aos="zoom-in-up")
