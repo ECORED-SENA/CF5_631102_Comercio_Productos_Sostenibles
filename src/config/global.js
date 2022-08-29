@@ -116,8 +116,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo:
-          'Envases, empaques y embalajes ecológicos o biodegradables  ambiental',
+        titulo: 'Envases, empaques y embalajes ecológicos o biodegradables',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -236,7 +235,7 @@ export default {
     {
       termino: '<em>Compost</em>',
       significado:
-        'Materiales utilizados para hacer composta: restos de vegetales y frutas, cáscara de huevo, residuos de procedencia animal tallos frescos, hojas secas, entre otros,',
+        'Materiales utilizados para hacer composta: restos de vegetales y frutas, cáscara de huevo, residuos de procedencia animal, tallos frescos, hojas secas, entre otros,',
     },
     {
       termino: 'Desarrollo Sostenible',
@@ -305,7 +304,7 @@ export default {
     {
       tema: '3. Campaña ambiental',
       referencia:
-        'Asociación Quercus. (2013) Stop Global Warming.[Video]. YouTube.',
+        'Marketing 360. (2013) Conciencia ambiental. [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=5vYsRrwusHE',
     },

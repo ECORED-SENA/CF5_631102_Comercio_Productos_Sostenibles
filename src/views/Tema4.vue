@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 4
-      h1 Envases, empaques y embalajes ecológicos o biodegradables  ambiental
+      h1 Envases, empaques y embalajes ecológicos o biodegradables
 
     p(data-aos="fade-up") En la división del #[em packaging], se encuentran tres categorías de envases:
 
@@ -43,7 +43,6 @@
             p.text-small(data-aos="fade-up" style="font-size:16px") Según Garcerant (s. f.), un envase es #[br]
             i.fas.fa-quote-left
             h5.mb-0(style="font-size:18px" data-aos="fade-up") Todo producto fabricado con materiales de diversa naturaleza que se utiliza para contener, proteger, manipular, distribuir y presentar mercancías, desde materias primas hasta artículos acabados, en cualquier fase de la cadena de fabricación, distribución y consumo. #[br]
-            p(data-aos="fade-up" style="font-size:16px") Garcerant (s. f.)
             i.fas.fa-quote-right(style="float:right;")
       .col-md-5(style="place-self:center;")
         figure
@@ -85,11 +84,8 @@
             i.fas.fa-quote-left
             h5.mb-0(style="font-size:18px" data-aos="fade-up") Es aquel que prepara la carga en la forma más adecuada para su transporte en los modos elegidos para su despacho al exterior y para las distintas operaciones a que se someta durante el viaje entre el exportador y el importador.
             i.fas.fa-quote-right(style="float:right;")
-            br
-            br
-            p(data-aos="fade-up" style="font-size:16px")  Centro Internacional de Negocios (s. f.)
 
-    p.mt-4.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") El embalaje es una forma de empaque que envuelve, continue, protege y conserva los productos envasados y/o empaquetados y va mas orientado a la protección del producto durante el transporte logístico. No necesariamente debe ser una caja, tambien puede ser el plástico que ponemos alrededor de un producto envasado o empaquetado. #[br] #[br] Con frecuencia, también se le conoce al embalaje como un empaque terciario que sirve para transportar los productos y en el que se informan las especificaciones de manipulación, los requisitos, símbolos y lo que contiene en la parte externa.
+    p.mt-4.col-md-10.m-auto.ps-3.pe-3(style="position:relative;border-left:3px #EA3584 solid;border-right:3px #EA3584 solid;" data-aos="fade-up") El embalaje es una forma de empaque que envuelve, contiene, protege y conserva los productos envasados y/o empaquetados y va más orientado a la protección del producto durante el transporte logístico. No necesariamente debe ser una caja, también puede ser el plástico que ponemos alrededor de un producto envasado o empaquetado. #[br] #[br] Con frecuencia, también se le conoce al embalaje como un empaque terciario que sirve para transportar los productos y en el que se informan las especificaciones de manipulación, los requisitos, símbolos y lo que contiene en la parte externa.
 
     .row.mt-5.cont_backgroundt4_3(style="position:relative")
       .col-md-8.m-auto.mt-4.p-4(style="background-color:#F6F6F6;")
@@ -184,7 +180,7 @@
           .col-md-7(style="place-self:center")
             p(data-aos="fade-up") #[strong A continuación, se comparte otro ejemplo de ficha técnica, pero este ya elaborado en el SENA.]
           .col-md-3.text-center(style="place-self:center")
-            a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/OKEst_Ficha_tecnica_SENA.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/Ficha_tecnica_SENA.pdf')" target="_blank" type="application/pdf")
               span Descargar pdf
               i.fas.fa-file-download
 
@@ -222,7 +218,7 @@
               td.p-3(style="border:0;border-radius:10px") Establecimientos de alojamiento y hospedaje.
             tr(style="background-color:white;")
               td.p-3.h5(style="border:0;font-size:18px;border-right:5px white solid;border-radius:10px") NTC 5517
-              td.p-3(style="border:0;border-radius:10px") Detergentes de limpieza.
+              td.p-3(style="border:0;border-radius:10px") Embalajes, empaques, cordeles, hilos, sogas y telas de fique.
             tr(style="background-color:#FFFAE7;")
               td.p-3.h5(style="border:0;font-size:18px;border-right:5px white solid;border-radius:10px") NTC 5585
               td.p-3(style="border:0;border-radius:10px") Aceites lubricantes para motores de dos tiempos a gasolina.
@@ -288,10 +284,10 @@
             figure
               img(src="@/assets/curso/tema4/24.png")
           .col(style="place-self:center")
-            h4.mb-0 Etiquetado ecologico
+            h4.mb-0 Etiquetado ecológico
 
       .col-md-9(style="place-self:center")
-        p(data-aos="fade-left") Actualmente, varias cadenas de supermercados y el sector alimentos han evidenciado la importancia de producir y comercializar productos que contemplen criterios ambientales por dos razones centrales:
+        p(data-aos="fade-left") Es considerado como un mecanismo que usa el mercado para el fomentar en los clientes hábitos de consumo sostenibles y comunicar e impulsar mejores prácticas ambientales en las organizaciones, que se traduzcan en la mejora continua de desempeño de esta.
 
     .row.mt-5.cont_backgroundt4_4.pb-5(style="position:relative")
       .col-md-6.mb-4

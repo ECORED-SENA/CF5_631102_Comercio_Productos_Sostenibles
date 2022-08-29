@@ -104,7 +104,7 @@
         .row.col-md-10.m-auto
           .col-md-9.mb-4.mb-md-0(style="place-self:center")
             h5 Observación deliberada naturalista
-            p Comprende observaciones planificadas y organizadas que tienen lugar en momentos específicos en momentos específicos.
+            p Comprende observaciones planificadas y organizadas que tienen lugar en momentos específicos.
           .col-md-3(style="place-self:center")
             figure.text-center
               img(src='@/assets/curso/tema3/12.svg' data-aos="fade-left" style="position:relative;display:inline;max-width:85px")
@@ -199,7 +199,7 @@
       p(data-aos="fade-up" style="position:relative") Este método implica recopilar información que es proporcionada directamente por los sujetos de estudio, con el fin de conocer actitudes, opiniones o sugerencias de ellos mismos, así como tener en cuenta que esta técnica permite aplicaciones masivas. Algunos de los tipos de cuestionarios son los que se observan en la siguiente tabla.
 
       .titulo-sexto.color-acento-contenido.mt-4(style="position:relative")
-        h5 Figura 1
+        h5 Tabla 3
         span Tipos de cuestionarios, ventajas y desventajas
 
       .tabla-a.color-primario.mt-3(style="position:relative")

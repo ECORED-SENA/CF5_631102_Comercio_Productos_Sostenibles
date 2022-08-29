@@ -145,7 +145,7 @@
             td.p-4.h5.text-center(style="border:0;border-right:1px #AFAFAF solid;") Precio verde
             td.p-4(style="border:0") Se refiere al precio especificado a la luz de las políticas de la empresa con respecto a las consideraciones ambientales impuestas por las normas e instrucciones de la empresa, o de sus iniciativas ecológicas.
           tr(style="background-color:#FFFAE7")
-            td.p-4.h5.text-center(style="border:0;border-right:1px #AFAFAF solid;") Plaza (distribución)
+            td.p-4.h5.text-center(style="border:0;border-right:1px #AFAFAF solid;") Plaza (distribución) verde
             td.p-4(style="border:0") Se refiere a la distribución de productos ecológicos que son adecuados para los consumidores, en términos de facilitar la entrega y garantizar procedimientos de reciclaje, que se realizan dentro de las condiciones y requerimientos ambientales. 
           tr(style="background-color:#fff")
             td.p-4.h5.text-center(style="border:0;border-right:1px #AFAFAF solid;") Promoción verde

@@ -15,7 +15,7 @@
           figure.text-center
             img(src="@/assets/curso/tema2/2.svg" data-aos="fade-right" style="display:inline;position:relative;")
         .col-md-8(style="place-self:center;")
-          p(data-aos="fade-up" style="position:relative;") Para lo cual, se deben tener en cuenta las etapas del ciclo de vida de los productos y servicios, promoviendo al mismo tiempo, la calidad de vida de los seres humanos
+          p(data-aos="fade-up" style="position:relative;") Para lo cual, se deben tener en cuenta las etapas del ciclo de vida de los productos y servicios, promoviendo al mismo tiempo, la calidad de vida de los seres humanos.
           p.mt-4(data-aos="fade-up" style="position:relative;") En esa medida, para aliviar la presión sobre los ecosistemas se deben formular y aplicar políticas de sostenibilidad económica, social y ambiental. A su vez, es necesario que las organizaciones trabajen en la gestión de una normativa de producción sostenible que propenda por la reutilización de subproductos resultantes de la cadena productiva. En ese sentido, es necesario que las organizaciones fomenten la innovación ecológica para generar una producción más limpia dentro de la concepción de ciclo de vida en la cadena de fabricación (ONU Medio Ambiente, 2017).  
           p.mt-4.mb-0(data-aos="fade-up" style="position:relative;") La producción sostenible es la manera en que las organizaciones ponen a disposición las políticas para la preservación del medio ambiente y se acogen a las normativas y principios de sostenibilidad en el marco jurídico de la producción sostenible establecido por los países.
 
