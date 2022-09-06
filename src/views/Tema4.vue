@@ -288,6 +288,7 @@
 
       .col-md-9(style="place-self:center")
         p(data-aos="fade-left") Es considerado como un mecanismo que usa el mercado para el fomentar en los clientes hábitos de consumo sostenibles y comunicar e impulsar mejores prácticas ambientales en las organizaciones, que se traduzcan en la mejora continua de desempeño de esta.
+        p.mt-4(data-aos="fade-up") Actualmente, varias cadenas de supermercados y el sector alimentos han evidenciado la importancia de producir y comercializar productos que contemplen criterios ambientales por dos razones centrales:
 
     .row.mt-5.cont_backgroundt4_4.pb-5(style="position:relative")
       .col-md-6.mb-4
